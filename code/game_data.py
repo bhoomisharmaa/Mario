@@ -1,0 +1,53 @@
+level_0 = {
+    'terrain' : '../levels/0/level_0_terrain.csv',
+    'coins' : '../levels/0/level_0_coins.csv',
+    'fg_palms' : "../levels/0/level_0_fg_palms.csv",
+    'bg_palms' : "../levels/0/level_0_bg_palms.csv",
+    'crates' : '../levels/0/level_0_crates.csv',
+    'enemies' : '../levels/0/level_0_enemies.csv',
+    'constraints' : '../levels/0/level_0_constraints.csv',
+    'player' : '../levels/0/level_0_player.csv',
+    'grass' : '../levels/0/level_0_grass.csv',
+    'tree_constraints' : '../levels/0/level_0_tree_constraints.csv',
+    'node_pos' : (300,400),
+    'unlock' : 1,
+    'node_graphics' : '../graphics/overworld/0'}
+
+level_1 = {
+    'terrain' : '../levels/1/level_1_terrain.csv',
+    'coins' : '../levels/1/level_1_coins.csv',
+    'fg_palms' : "../levels/1/level_1_fg_palms.csv",
+    'bg_palms' : "../levels/1/level_1_bg_palms.csv",
+    'crates' : '../levels/1/level_1_crates.csv',
+    'enemies' : '../levels/1/level_1_enemy.csv',
+    'constraints' : '../levels/1/level_1_constraints.csv',
+    'player' : '../levels/1/level_1_player.csv',
+    'grass' : '../levels/1/level_1_grasses.csv',
+    'floating_tiles' : '../levels/1/level_1_floating_terrain.csv',
+    'tile_constraint' : '../levels/1/level_1_tile_constraint.csv',
+    'tree_constraints' : '../levels/1/level_1_tree_constraints.csv',
+    'node_pos' : (650,190),
+    'unlock' : 2,
+    'node_graphics' : '../graphics/overworld/1'}
+
+level_2 = {
+    'terrain' : '../levels/2/level_2_terrain.csv',
+    'coins' : '../levels/2/level_2_coins.csv',
+    'fg_palms' : "../levels/2/level_2_fg_palms.csv",
+    'bg_palms' : "../levels/2/level_2_bg_palms.csv",
+    'crates' : '../levels/2/level_2_crates.csv',
+    'enemies' : '../levels/2/level_2_enemies.csv',
+    'constraints' : '../levels/2/level_2_constraints.csv',
+    'player' : '../levels/2/level_2_player.csv',
+    'grass' : '../levels/2/level_2_grasses.csv',
+    'floating_tiles' : '../levels/2/level_2_floating_terrain.csv',
+    'tree_constraints' : '../levels/2/level_2_tree_constraints.csv',
+    'tile_constraint' : '../levels/2/level_2_tile_constraint.csv',
+    'node_pos' : (880,610),
+    'unlock' : 2,
+    'node_graphics' : '../graphics/overworld/2'}
+
+levels = {
+    0 : level_0,
+    1 : level_1,
+    2 : level_2}
